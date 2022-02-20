@@ -2,7 +2,7 @@
 
 Multi-project repo containing older versions of the Fitness Tracker app for historical purposes.
 
-_Note: Add repo information to bottom of table when archiving it in this project._
+_NOTE: Add repo information to bottom of table when archiving it in this project._
 
 ## Fitness App Projects
 
