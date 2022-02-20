@@ -1,0 +1,24 @@
+{
+  "name": "fitness-tracker-json",
+  "version": "1.0.0",
+  "description": "The purpose of the project is to centrally locate the exercises, records, and routines for the Fitness Tracker App. This is likely a temporaty solution until a persistent database solution is made.",
+  "main": "fitness-data.js",
+  "scripts": {
+    "build": "node build-records.js > fitness-data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljoy255/fitness-tracker-json.git"
+  },
+  "keywords": [],
+  "author": "Michael Joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeljoy255/fitness-tracker-json/issues"
+  },
+  "homepage": "https://github.com/michaeljoy255/fitness-tracker-json#readme",
+  "private": true,
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
+}

@@ -1,0 +1,197 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: #e2e2e2;
+}
+
+div#app {
+  width: 100%;
+  height: 90vh;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  all: unset;
+}
+
+/* Home */
+section#home-page {
+  justify-content: space-between;
+}
+
+h1.app-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+div.routines-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.routine-btn,
+#results-btn {
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #33356b;
+  width: 250px;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+p.byline {
+  text-align: center;
+}
+
+/* Routine */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #181818;
+  border-bottom: solid 1px #45b4e0;
+  padding: 10px 20px 10px 20px;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+}
+
+.routine-title {
+  margin-top: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #181818;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.exercise {
+  background-color: #181818;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.exercise-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  width: 100%;
+  border-bottom: solid 1px #45b4e0;
+}
+
+.exercise-category {
+  text-transform: uppercase;
+  color: #757575;
+}
+
+.exercise-objectives {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.hourglass_empty {
+  color: #2289ff;
+}
+
+.speed {
+  color: #42d12f;
+}
+
+.whatshot,
+.priority_high {
+  color: #e6321a;
+}
+
+.signal_cellular_null,
+.fitness_center {
+  color: #f3c428;
+}
+
+.exercise-inputs {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.inputs-col {
+  margin-right: 8px;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  border: solid 1px #1d1d1d;
+  border-bottom: solid 1px white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #1d1d1d;
+  padding: 5px;
+  color: #f5f4f1;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+::placeholder {
+  color: #b6352c;
+}
+
+p.set-number {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  font-size: 20px;
+  margin: 0 0 5px 3px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181818;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#results-text {
+  height: 500px;
+  width: 100%;
+  border: solid 1px white;
+  border-radius: 3px;
+  background-color: #181818;
+  padding: 8px;
+  color: #f5f4f1;
+  resize: none;
+}

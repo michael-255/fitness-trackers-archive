@@ -1,0 +1,22 @@
+{
+  "name": "fitness-app-defaults",
+  "version": "1.0.0",
+  "description": "Helps generate defaults for the main fitness app.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljoy255/fitness-app-defaults.git"
+  },
+  "keywords": [
+    "fitness"
+  ],
+  "author": "Michael Joy",
+  "bugs": {
+    "url": "https://github.com/michaeljoy255/fitness-app-defaults/issues"
+  },
+  "homepage": "https://github.com/michaeljoy255/fitness-app-defaults#readme",
+  "type": "module"
+}

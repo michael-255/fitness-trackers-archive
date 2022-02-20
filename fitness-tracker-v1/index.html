@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>New Workout</title>
+        
+        <link rel="shortcut icon" href="favicon.png" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body style="background-color: #ebe8dc;">
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    New Workout <span id="currentDate"></span>
+                </a>
+            </nav>
+
+            <form class="mt-5">
+                <!--#########################################################-->
+                <hr />
+                <h4 id="chest">Chest & Triceps</h4>
+                <!--#########################################################-->
+
+                <h6>Smith Flat Bench Press</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 110 lbs"
+                            id="chest-1-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-1-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="chest-1-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Smith Incline Bench Press</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 70 lbs"
+                            id="chest-2-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-2-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="chest-2-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Smith Decline Bench Press</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 110 lbs"
+                            id="chest-3-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-3-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="chest-3-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Fly Machine (Chest)</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 90 lbs"
+                            id="chest-4-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-4-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="chest-4-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Cable Chest Side Pulls</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 14 lbs"
+                            id="chest-5-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-5-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="chest-5-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Tricep Press Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 155 lbs"
+                            id="chest-6-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-6-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="chest-6-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Laying Tricep Extensions</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 40 lbs"
+                            id="chest-7-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="chest-7-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="chest-7-sets"
+                        />
+                    </div>
+                </div>
+
+                <!--#########################################################-->
+                <hr />
+                <h4 id="back">Back & Biceps</h4>
+                <!--#########################################################-->
+
+                <h6>Smith Bent Over Rows</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 110 lbs"
+                            id="back-1-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-1-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="back-1-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Smith Shrugs</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 180 lbs"
+                            id="back-2-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-2-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="back-2-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Smith Stiff-Legged Deadlifts</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 90 lbs"
+                            id="back-3-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-3-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="back-3-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Assisted Pull-ups (3 versions)</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 55 lbs"
+                            id="back-4-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-4-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="back-4-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Fly Machine (Back)</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 80 lbs"
+                            id="back-5-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-5-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 4"
+                            id="back-5-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Barbell Underhand Curls</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 40 lbs"
+                            id="back-6-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-6-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="back-6-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Dumbbell Hammer Curls</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 20 lbs"
+                            id="back-7-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-7-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="back-7-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Barbell Overhand Curls</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 30 lbs"
+                            id="back-8-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="back-8-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="back-8-sets"
+                        />
+                    </div>
+                </div>
+
+                <!--#########################################################-->
+                <hr />
+                <h4 id="legs">Legs & Shoulders</h4>
+                <!--#########################################################-->
+
+                <h6>Seated Shoulder Press Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 60 lbs"
+                            id="legs-1-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-1-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-1-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Dumbbell Side Lateral Raises</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 10 lbs"
+                            id="legs-2-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-2-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-2-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Dumbbell Front Raises</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 10 lbs"
+                            id="legs-3-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-3-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-3-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Leg Press Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 150 lbs"
+                            id="legs-4-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-4-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-4-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Leg Curl Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 75 lbs"
+                            id="legs-5-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-5-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-5-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Leg Extension Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 75 lbs"
+                            id="legs-6-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-6-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-6-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Calf Extension Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 160 lbs"
+                            id="legs-7-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-7-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-7-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Hip Abduction (Out) Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 190 lbs"
+                            id="legs-8-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-8-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-8-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Hip Adduction (In) Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 150 lbs"
+                            id="legs-9-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-9-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-9-sets"
+                        />
+                    </div>
+                </div>
+
+                <h6>Standing Glute Press Machine</h6>
+                <div class="form-row mb-3">
+                    <div class="col-5">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Weight 100 lbs"
+                            id="legs-10-weight"
+                        />
+                    </div>
+                    <div class="col-4">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Reps 10"
+                            id="legs-10-reps"
+                        />
+                    </div>
+                    <div class="col-3">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="Sets 3"
+                            id="legs-10-sets"
+                        />
+                    </div>
+                </div>
+
+                <!--#########################################################-->
+                <hr />
+                <h4 id="misc">Miscellanous</h4>
+                <!--#########################################################-->
+
+                <div class="custom-control custom-checkbox">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="pre-stretch"
+                    />
+                    <label class="custom-control-label" for="pre-stretch">
+                        Pre Workout Stretch
+                    </label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="warmup"
+                    />
+                    <label class="custom-control-label" for="warmup">
+                        Warmup or Cardio Workout
+                    </label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="core"
+                    />
+                    <label class="custom-control-label" for="core">
+                        Core
+                    </label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="cooldown"
+                    />
+                    <label class="custom-control-label" for="cooldown">
+                        Cooldown
+                    </label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="post-stretch"
+                    />
+                    <label class="custom-control-label" for="post-stretch">
+                        Post Workout Stretch
+                    </label>
+                </div>
+
+                <h6>Body Weight</h6>
+                <div class="form-row mb-3">
+                    <div class="col-6">
+                        <input
+                            type="number"
+                            class="form-control form-control-sm"
+                            placeholder="157 lbs"
+                            id="body-weight"
+                        />
+                    </div>
+                </div>
+
+                <!--#########################################################-->
+                <hr />
+                <!--#########################################################-->
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <a href="#copyButton">
+                            <input
+                                class="btn btn-primary btn-block"
+                                type="button"
+                                id="jsonButton"
+                                value="Generate JSON"
+                            />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#copyButton">
+                            <input
+                                class="btn btn-success btn-block"
+                                type="button"
+                                id="tableButton"
+                                value="Generate Table Col"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <!--#########################################################-->
+                <hr />
+                <!--#########################################################-->
+            </form>
+        </div>
+
+        <div class="container">
+            <input
+                class="btn btn-dark btn-block"
+                type="button"
+                id="copyButton"
+                value="Copy Results to Clipboard"
+            />
+
+            <div class="form-group mt-3">
+                <textarea
+                    class="form-control"
+                    id="resultsTextArea"
+                    rows="5"
+                ></textarea>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

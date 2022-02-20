@@ -1,0 +1,7 @@
+export const START_ROUTINE = "START_ROUTINE";
+export const SET_DURATION = "SET_DURATION";
+export const SET_DISTANCE = "SET_DISTANCE";
+export const SET_WEIGHT = "SET_WEIGHT";
+export const SET_REPS = "SET_REPS";
+export const FINALIZE_STATE = "FINALIZE_STATE";
+export const STORE_UPDATED_STATE = "STORE_UPDATED_STATE";

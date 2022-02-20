@@ -1,0 +1,41 @@
+{
+  "name": "Fitness Tracker",
+  "short_name": "Fitness Tracker",
+  "description": "Fitness Tracker helps you reach your fitness goals one step at a time.",
+  "catagories": ["fitness", "health", "lifestyle", "sports"],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "start_url": "/fitness-tracker-v13",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/android-icon-36x36.png",
+      "sizes": "36x36"
+    },
+    {
+      "src": "icons/android-icon-48x48.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icons/android-icon-72x72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "icons/android-icon-96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icons/android-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "icons/android-icon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/android-icon-192x192.png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page > index matches the snapshot 1`] = `
+"<div class=\\"container\\">
+  <h1>Home Page</h1>
+</div>"
+`;

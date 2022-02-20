@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page > error matches the snapshot 1`] = `
+"<div class=\\"container fill-height\\">
+  <div class=\\"row\\">
+    <div justify=\\"center\\" align=\\"center\\" class=\\"col\\">
+      <h1>
+        Sorry, an error occurred
+      </h1> <a to=\\"/\\">
+        Return To Home Page
+      </a>
+    </div>
+  </div>
+</div>"
+`;

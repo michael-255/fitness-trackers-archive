@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page > test matches the snapshot 1`] = `
+"<div class=\\"container\\">
+  <h1>Test Page</h1> <button type=\\"button\\" class=\\"v-btn v-btn--contained theme--light v-size--default\\"><span class=\\"v-btn__content\\">
+    Print Categories
+  </span></button> <button type=\\"button\\" class=\\"v-btn v-btn--contained theme--light v-size--default\\"><span class=\\"v-btn__content\\">
+    Print Exercises
+  </span></button> <button type=\\"button\\" class=\\"v-btn v-btn--contained theme--light v-size--default\\"><span class=\\"v-btn__content\\">
+    Print Workouts
+  </span></button>
+</div>"
+`;

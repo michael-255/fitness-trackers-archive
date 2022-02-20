@@ -1,0 +1,144 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    background: url("../assets/fitness-center.jpg") no-repeat center center
+        fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+/* Home Page */
+section.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px;
+}
+
+section.home .title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.routines {
+    display: flex;
+    flex-direction: column;
+}
+
+div.routines a.btn {
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3f51b5;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Activity Page */
+section.activity {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+}
+
+section header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3f51b5;
+    padding: 10px;
+}
+
+header span {
+    display: flex;
+    align-items: center;
+}
+
+section.activity {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+}
+
+section.activity .title {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+section.activity h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+div.exercise {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+div.details {
+    display: flex;
+    align-items: baseline;
+}
+
+span.setnum {
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: 700;
+    flex: 1;
+}
+
+div.details input {
+    padding: 6px;
+    font-size: 16px;
+    height: 36px;
+    width: 120px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: black;
+
+    border-style: none;
+    flex: 10;
+}
+
+::placeholder {
+    color: #ff1100;
+}
+
+a.btn-finished {
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3f51b5;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}

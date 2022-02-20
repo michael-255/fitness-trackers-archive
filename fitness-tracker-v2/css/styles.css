@@ -1,0 +1,11 @@
+body {
+    background-color: #ebe8dc !important;
+    margin-top: 40px !important;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -58px;
+    visibility: hidden;
+}

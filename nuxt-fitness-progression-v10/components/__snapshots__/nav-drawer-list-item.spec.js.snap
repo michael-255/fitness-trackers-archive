@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > nav-drawer-list-item matches the snapshot 1`] = `
+"<a tabindex=\\"0\\" class=\\"v-list-item v-list-item--link theme--light\\">
+  <div class=\\"v-list-item__action\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate material-icons theme--light\\">person</i></div>
+  <div class=\\"v-list-item__content\\">
+    Hello
+  </div>
+</a>"
+`;

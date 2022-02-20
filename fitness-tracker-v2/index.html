@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Fitness Tracker</title>
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!--NAVBAR ##########################################################-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                Track Workout - <span id="currentDate"></span>
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chest">Chest & Triceps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#back">Back & Biceps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#legs"
+                            >Legs, Shoulders, Core</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#misc">Miscellanous</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <form>
+                <!--WORKOUTS ################################################-->
+                <div id="workouts"></div>
+
+                <!--EXTRAS ##################################################-->
+                <div id="extras"></div>
+            </form>
+
+            <hr />
+            <button
+                class="btn btn-success btn-block"
+                onclick="dataToClipboard()"
+            >
+                Send Data To Clipboard
+            </button>
+
+            <textarea
+                class="form-control mt-2"
+                id="dataResults"
+                rows="16"
+            ></textarea>
+        </div>
+
+        <!--Final Scripts-->
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

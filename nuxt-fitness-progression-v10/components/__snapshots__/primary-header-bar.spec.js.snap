@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > primary-header-bar matches the snapshot 1`] = `
+"<header class=\\"v-sheet theme--light v-toolbar v-app-bar v-app-bar--clipped v-app-bar--fixed secondary\\" style=\\"height: 64px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;\\">
+  <div class=\\"v-toolbar__content\\" style=\\"height: 64px;\\"><button type=\\"button\\" class=\\"v-app-bar__nav-icon v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default\\"><span class=\\"v-btn__content\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-menu theme--light\\"></i></span></button>
+    <div class=\\"v-toolbar__title\\">Fitness LP</div>
+  </div>
+</header>"
+`;

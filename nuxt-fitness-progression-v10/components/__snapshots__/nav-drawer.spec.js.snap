@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > nav-drawer matches the snapshot 1`] = `
+"<nav class=\\"v-navigation-drawer v-navigation-drawer--clipped v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile theme--light\\" style=\\"height: 100vh; top: 0px; transform: translateX(-100%); width: 256px;\\">
+  <div class=\\"v-navigation-drawer__content\\">
+    <div class=\\"v-list v-sheet theme--light v-list--nav\\">
+      <div route=\\"/\\" icon=\\"dashboard\\" name=\\"Dashboard\\"></div>
+      <hr role=\\"separator\\" aria-orientation=\\"horizontal\\" class=\\"mb-2 v-divider theme--light\\">
+      <div route=\\"/test\\" icon=\\"timeline\\" name=\\"Charts\\"></div>
+      <div route=\\"/test\\" icon=\\"assignment\\" name=\\"Workouts\\"></div>
+      <div route=\\"/test\\" icon=\\"fitness_center\\" name=\\"Exercises\\"></div>
+      <div route=\\"/test\\" icon=\\"straighten\\" name=\\"Measurements\\"></div>
+      <div route=\\"/test\\" icon=\\"sd_card\\" name=\\"Records\\"></div>
+      <hr role=\\"separator\\" aria-orientation=\\"horizontal\\" class=\\"mb-2 v-divider theme--light\\">
+      <div route=\\"/test\\" icon=\\"info\\" name=\\"About\\"></div>
+      <div route=\\"/test\\" icon=\\"announcement\\" name=\\"Test\\"></div>
+    </div>
+  </div>
+  <div class=\\"v-navigation-drawer__border\\"></div>
+</nav>"
+`;

@@ -1,0 +1,70 @@
+{
+  "vuesfc": {
+    "scope": "vue",
+    "prefix": "vuesfc",
+    "description": "Vue single file component scaffold",
+    "body": [
+      "<script>",
+      "export default {",
+      "\tname: '${0:example}',",
+      "}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>${1:example}</div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ]
+  },
+
+  "script": {
+    "scope": "vue",
+    "prefix": "script",
+    "description": "Vue script tags",
+    "body": [
+      "<script>",
+      "export default {",
+      "\tname: '${0:example}',",
+      "}",
+      "</script>"
+    ]
+  },
+
+  "template": {
+    "scope": "vue",
+    "prefix": "template",
+    "description": "Vue template tags",
+    "body": ["<template>", "\t<div>${0:example}</div>", "</template>"]
+  },
+
+  "style": {
+    "scope": "vue",
+    "prefix": "style",
+    "description": "Vue style tags",
+    "body": ["<style lang=\"scss\" scoped>", "${0}", "</style>"]
+  },
+
+  "test": {
+    "scope": "javascript",
+    "prefix": "test",
+    "description": "Jest test function",
+    "body": ["test('${0:example}', () => {", "\texpect(true).toBe(false)", "})"]
+  },
+
+  "describe": {
+    "scope": "javascript",
+    "prefix": "describe",
+    "description": "Jest describe function",
+    "body": ["describe('${0:example}', () => {", "\t", "})"]
+  },
+
+  "class": {
+    "scope": "javascript",
+    "prefix": "class",
+    "description": "Javascript class scaffold",
+    "body": ["class ${0:Example} {", "\tconstructor() {}", "}"]
+  }
+}
