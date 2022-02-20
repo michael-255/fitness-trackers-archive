@@ -6,7 +6,7 @@ _Note: Add repo information to bottom of table when archiving it in this project
 
 ## Fitness App Projects
 
-Initial Commit Date | Original Repo Name | Progress Status | Archived?
+Initial Commit Date | Original Repo Name | Progress Status | Archived Here?
 --- | --- | --- | ---
 Oct 12, 2019 | fitness-tracker-v1 | unknown | YES
 Oct 12, 2019 | fitness-tracker-v2 | unknown | YES
@@ -25,7 +25,7 @@ Jan 30, 2022 | fitness-tracker-v14 | WIP | NO
 
 ## Supplementary Projects
 
-Initial Commit Date | Original Repo Name | Progress Status | Archived?
+Initial Commit Date | Original Repo Name | Progress Status | Archived Here?
 --- | --- | --- | ---
 Nov 9, 2019 | fitness-tracker-json | unknown | YES
 Oct 28, 2020 | fitness-app-defaults | unknown | YES
