@@ -1,5 +1,7 @@
 # Fitness Trackers Archive
 
+_Project Archived_
+
 Multi-project repo containing older versions of the Fitness Tracker app for historical purposes.
 
 ## Fitness App Projects
